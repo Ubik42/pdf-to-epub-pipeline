@@ -1,0 +1,8 @@
+.venv/
+work/
+models/
+*.log
+__pycache__/
+.pytest_cache/
+*.pdf
+*.epub

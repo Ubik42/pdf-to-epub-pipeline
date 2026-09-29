@@ -1,0 +1,30 @@
+id = "operations-research-5"
+title = "运筹学（第5版）"
+author = "《运筹学》教材编写组"
+publisher = "清华大学出版社"
+published = "2021-10-01"
+isbn = "9787302590811"
+language = "zh-CN"
+category = "理工科"
+
+[source]
+pdf = 'D:\text\PDFBookInbox\运筹学（第5版）.pdf'
+sha256 = "f050cc66bed7362ccda9e98e269e5c4ab243ddacb152b71f001d38eb8c7b7687"
+bytes = 61666030
+pages = 526
+kind = "scan_only"
+text_layer = false
+
+[processing]
+primary = "MinerU 4 document VLM"
+tier = "standard"
+ocr_mode = "ocr"
+parser_kind = "hybrid_page_visual_with_integrated_ocr"
+independent_ocr_role = "ambiguous_character_review"
+remote_upload = false
+
+[paths]
+markdown = 'work\运筹学第五版\full\运筹学（第5版）.md'
+cover = 'D:\Obsidian\Text\书库\运筹学（第5版）.jpg'
+obsidian_note = 'D:\Obsidian\Text\书库\运筹学（第5版）.md'
+publish_epub = 'D:\text\BookInbox\运筹学（第5版） -- 《运筹学》教材编写组 -- 2021 -- 清华大学出版社 -- 9787302590811.epub'

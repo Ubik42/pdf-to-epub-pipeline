@@ -1,0 +1,21 @@
+[paths]
+input = "D:/text/PDFBookInbox"
+publish = "D:/text/BookInbox"
+work = "D:/text/_tools/pdf_to_epub_pipeline/work"
+
+[routing]
+native_text_min_coverage = 0.90
+review_confidence_below = 0.90
+preserve_print_page_numbers = true
+
+[epub]
+version = "3.3"
+layout = "reflowable"
+split = "chapter"
+language = "auto"
+
+[quality]
+require_epubcheck = true
+require_koodo_smoke_test = true
+block_publish_on_missing_pages = true
+block_publish_on_unresolved_warnings = true
